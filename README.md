@@ -1,4 +1,4 @@
-The main idea of this client-server application is to book tickets to given spectacles which occur in given theaters. The client has a set interval for sending place booking requests to the server, which checks the availabilty of all the given places.
+The main idea of this client-server application is to book tickets to given spectacles which occur in given theaters. The client has a set interval for sending place booking requests to the server, where all the given places are checked for being available.
 
 It is built as a proof of concept for working with ExecutorService thread pools, Callables and Runnables, alongide with task scheduling using the Java built-in Timer and TimerTask classes.
 
